@@ -51,12 +51,13 @@
     }
     &-content{
       position: relative;
+      opacity: 0;
+      visibility: hidden;
     }
     &-text {
       position: absolute;
       font-size: 12px;
-      opacity: 0;
-      transition: opacity .3s;
+      transition: opacity .4s;
       left: 50%;
       top: 0;
       transform: translate(-50%, 0%);
@@ -73,8 +74,9 @@
         &-title {
           color: #308697;
         }
-        &-text {
+        &-content {
           opacity: 1;
+          visibility: visible;
         }
       }
     }
