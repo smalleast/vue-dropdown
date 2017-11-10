@@ -39,7 +39,7 @@
       color: #6C6F70;
       font-size: 14px;
       cursor: pointer;
-      height: 30px;
+      min-height: 20px;
       &:after {
         content: '';
         position: absolute;
